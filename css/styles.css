@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+.main-body {
+    margin: auto;
+    margin-top: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#1B244A;
+    border-radius: 10px;
+}
+
+.teams {
+    font-size: 35px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#homeTeamSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guestTeamSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeTeamScore {
+    font-size: 35px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+#guestTeamScore {
+    font-size: 35px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+#homeControls {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#guestControls {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#homeScorePlusOne, #homeScorePlusTwo, #homeScorePlusThree {
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#guestScorePlusOne, #guestScorePlusTwo, #guestScorePlusThree {
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#homeScorePlusOne:hover, #homeScorePlusTwo:hover, #homeScorePlusThree:hover {
+    background-color: white;
+    color: black;
+}
+
+#guestScorePlusOne:hover, #guestScorePlusTwo:hover, #guestScorePlusThree:hover {
+    background-color: white;
+    color: black;
+}
+
+#resetScore {
+    background-color: transparent;
+    border: solid 3px white;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#resetBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 8px;
+}
+
+#resetScore:hover {
+    background-color: white;
+    color: black;
+}
